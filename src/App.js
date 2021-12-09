@@ -15,12 +15,12 @@ function App() {
       <Router  basename="/">
         <Switch>
           <Route exact path="/" render={() => <Home />} />
-          <Route exact path="/page-one" render={() => <PageOne />} />
-          <Route exact path="/page-two" render={() => <PageTwo />} />
-          <Route exact path="/page-three" render={() => <PageThree />} />
-          <Route exact path="/page-four" render={() => <PageFour />} />
-          <Route exact path="/page-five" render={() => <PageFive />} />
-          <Route exact path="*" render={() => <Home />} />
+          <Route path="/page-one" render={() => <PageOne />} />
+          <Route path="/page-two" render={() => <PageTwo />} />
+          <Route path="/page-three" render={() => <PageThree />} />
+          <Route path="/page-four" render={() => <PageFour />} />
+          <Route path="/page-five" render={() => <PageFive />} />
+          <Route path="*" render={() => <Home />} />
         </Switch>
       </Router>
     </div>
