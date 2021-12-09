@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+html{
+    min-height: 100vh;
+    text-align: center;
+    overflow-x: hidden;
+    /* background-image: url(../assets/type.jpeg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: auto;
+}
+
+.logo{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;  
+    
+}
+
+.logo img{
+    height: 100px;
+    width: 200px;
+}
+
+
+.home-image{
+display: flex;
+align-content: center;
+justify-content: center;
+width: 100%;
+}
+
+.home-image img{
+width: 60%;
+height: 500px;
+}
+
+
+
+.faculty{
+    font-size: calc(18px + 2vw);
+    margin-top: auto;
+}
+
+#school{
+    margin: -1.5% auto 1% auto;
+    font-size: calc(10px + 0.5vw);
+    font-weight: 200;
+}
+
+.consultancy{
+    text-transform: uppercase;
+    font-size: calc(10px + 1vw);
+  color: rgba(0, 0, 0, 0.712);
+  font-weight: 200;
+  
+    
+}
+.consultancy span{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: calc(20px + 1.4vw);
+    font-style: italic;
+    margin-top: 1px;
+    color: black;
+    font-family: MonteCarlo;
+    animation: name 5s ease-in-out infinite alternate;
+  font-weight: 600;
+}
+
+.by{
+margin: -1.5%;
+text-transform: uppercase;
+font-weight: lighter;
+}
+
+.name{
+    font-size: calc(15px + 1.4vw);
+    font-style: italic;
+    color: black;
+    font-family: MonteCarlo;
+    animation: name 5s ease-in-out infinite alternate;
+    font-weight: 600;
+    margin-bottom: -2px;
+}
+
+.details{
+    margin-top: -1%;
+    margin-bottom: 1%;
+}
+
+.id-number{
+    font-size: calc(8px + 0.7vw);
+    color: rgba(0, 0, 0, 0.6);
+}
+.id-number span{
+    color: black;
+    font-weight: 600;
+    font-size: calc(8px + 1vw);
+}
+
+.course{
+    font-weight: 400;
+    font-size: calc(10px + 0.5vw);
+    justify-content: center;
+    align-content: center;
+    text-transform: uppercase;
+    color: black;
+    /* margin-bottom: -1%; */
+}
+
+
+.tutor{
+    font-size: calc(8px + 0.7vw);
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.tutor span{
+    font-size: calc(9px + 0.7vw);
+    
+  
+}
+
+
+
+
+@keyframes name {
+    from {color: rgb(37, 48, 54);}
+    to {color: rgb(59, 49, 52);}
+  }
+

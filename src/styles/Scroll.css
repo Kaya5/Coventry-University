@@ -1,0 +1,23 @@
+.scroll-div{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    right: 0.5%;
+    height: 100vh;
+    position: fixed;
+    margin-top: -3%;
+    flex-direction: column;
+    
+
+}
+
+.scrollbar{
+    opacity: 0.1;
+    cursor: pointer;
+    padding-left: 5%;
+}
+
+.scroll-div :hover{
+    color: rgb(43, 9, 9);
+ opacity: 0.6;
+}

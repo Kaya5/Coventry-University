@@ -1,0 +1,53 @@
+body{
+  overflow: hidden;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+
+.buttons{
+display: flex;
+flex-direction: row;
+width: 100%;
+justify-content: space-between;
+padding-bottom: 1.5%;
+ }
+
+ .home-button{
+    display: flex;
+    margin-top: 1.5%;
+    margin-left: 5%;
+    margin-bottom: 1.5%;
+    justify-content: right;
+    font-family: ;
+
+}
+
+.article{
+  margin: -1% 5%;
+  text-align: justify;
+  font-size: calc(9px + 0.5vw);
+  line-height: calc(9px + 0.5vw + 14px);
+  word-spacing: 5px;
+}
+
+.next-btn{
+display: flex;
+ margin-top: 1.5%;
+ margin-right: 5%;
+ margin-bottom: 1.5%;
+ justify-content: right;
+}
+
+
+
+.ref{
+color: rgb(28, 92, 211);
+margin: auto;
+pointer-events: all;
+word-spacing: 10px;
+}
+
+.reference-list{
+  font-size: 13px;
+  /* width: 100%; */
+}

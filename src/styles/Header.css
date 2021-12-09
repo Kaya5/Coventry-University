@@ -1,0 +1,11 @@
+.Header{
+    text-align: left;  
+}
+
+.page-title{
+    font-size: calc(10px + 0.8vw);
+    font-weight: 600;
+    text-decoration: underline;
+    margin: 2% 0 -1% 0;
+    
+}

@@ -1,0 +1,40 @@
+  .table{
+   display: flex;
+   align-content: center;
+   justify-content: center;
+
+  }
+  
+  .data-header{
+    height: 30px;
+    /* box-sizing: content-box; */
+    text-align: center;
+    font-weight: 600;
+   text-transform: uppercase;
+   background-color: rgb(0, 174, 255);
+   margin-top: 0;
+  }
+  
+  .swot{
+    font-size: 12px;  
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-content: center; */
+  }
+
+
+ 
+  ul{
+  text-align: left;
+  line-height: 27px;
+
+  }
+  
+  .pair{
+  display: flex;
+   width: 495px;
+   border: 2px solid whitesmoke;
+  }
+  
