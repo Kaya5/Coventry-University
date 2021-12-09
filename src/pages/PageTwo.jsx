@@ -20,6 +20,7 @@ import ride from "../assets/ride.png";
 import walk from "../assets/walk.jpeg";
 import bus from "../assets/bus.jpeg";
 import chargepoint from "../assets/chargepoint.png";
+import { Link } from "react-router-dom";
 
 
 function PageTwo() {
@@ -97,17 +98,20 @@ function PageTwo() {
       </article>
       <div className="buttons">
         <div className="home-button">
-          <Button
-            href="/page-one"
-            style={prev}
-          >
-            previous
-          </Button>
+          <Link to="/page-one">
+            <Button
+              style={prev}
+            >
+              previous
+            </Button>
+          </Link>
         </div>
         <div className="next-btn">
-          <Button href="/page-three" style={next}>
-            next
-          </Button>
+          <Link to="/page-three">
+            <Button href="/page-three" style={next}>
+              next
+            </Button>
+          </Link>
         </div>
       </div>
       <Footer />

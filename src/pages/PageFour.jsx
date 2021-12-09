@@ -9,6 +9,7 @@ import Picture from "../components/Picture";
 import picture9 from "../assets/Picture9.jpg";
 
 import "../styles/Pages.css";
+import { Link } from "react-router-dom";
 
 
 function PageFour() {
@@ -127,24 +128,26 @@ function PageFour() {
       </article>
       <div className="buttons">
         <div className="home-button">
-          <Button
-            href="/page-three"
-            style={prev}
-            // size="large"
-            // variant="contained"
-            // color="secondary"
-          >
-            previous
-          </Button>
+          <Link to="/page-three">
+            <Button
+              style={prev}
+              // size="large"
+              // variant="contained"
+              // color="secondary"
+            >
+              previous
+            </Button>
+          </Link>
         </div>
         <div className="next-btn">
-          <Button
-            href="/page-five"
-            style={next}
-            // disabled
-          >
-            next
-          </Button>
+          <Link to="/page-five">
+            <Button
+              style={next}
+              // disabled
+            >
+              next
+            </Button>
+          </Link>
         </div>
       </div>
       <Footer />

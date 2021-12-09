@@ -14,6 +14,7 @@ import picture8 from "../assets/Picture8.jpg";
 
 import { prev, next } from "../components/styles";
 import "../styles/Pages.css";
+import { Link } from "react-router-dom";
 
 
 function PageThree() {
@@ -73,20 +74,23 @@ function PageThree() {
       </article>
       <div className="buttons">
         <div className="home-button">
-          <Button
-            href="/page-two"
-            // size="large"
-            // variant="outlined"
-            // color='secondary'
-            style={prev}
-          >
-            previous
-          </Button>
+          <Link to="/page-two">
+            <Button
+              // size="large"
+              // variant="outlined"
+              // color='secondary'
+              style={prev}
+            >
+              previous
+            </Button>
+          </Link>
         </div>
         <div className="next-btn">
-          <Button href="/page-four" style={next}>
-            next
-          </Button>
+          <Link to="/page-four">
+            <Button style={next}>
+              next
+            </Button>
+          </ Link>
         </div>
       </div>
       <Footer />

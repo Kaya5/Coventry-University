@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 import { home, prev } from "../components/styles";
 
 import "../styles/Pages.css";
+import { Link } from "react-router-dom";
 
 function PageFive() {
   return (
@@ -55,23 +56,25 @@ function PageFive() {
       </article>
       <div className="buttons">
         <div className="home-button">
-          <Button
-            href="/page-four"
-            style={prev}
-          >
-            previous
-          </Button>
+          <Link to="/page-four">
+            <Button
+              style={prev}
+            >
+              previous
+            </Button>
+          </Link>
         </div>
 
         <div className="home-button">
-          <Button href="/" size='large' color="primary" variant="contained" style={home}>
-            Home
-          </Button>
+          <Link to="/">
+            <Button size='large' color="primary" variant="contained" style={home}>
+              Home
+            </Button>
+          </Link>
         </div>
 
         <div className="next-btn">
           <Button
-            href="/page-five"
             variant="contained"
             disabled
           >

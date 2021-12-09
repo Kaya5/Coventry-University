@@ -4,6 +4,7 @@ import { home } from "../components/styles";
 
 import logo from "../assets/logo.png";
 import coventry from "../assets/Coventry.png";
+import { Link } from "react-router-dom";
 
 import "../styles/Home.css";
 
@@ -42,14 +43,15 @@ function Home() {
       </section>
 
       <div className="enter-button">
-        <Button
-          href="/page-one"
-          variant="contained"
-          style={home}
-          color="primary"
-        >
-          Enter
-        </Button>
+        <Link to="/page-one">
+          <Button
+            variant="contained"
+            style={home}
+            color="primary"
+          >
+            Enter
+          </Button>
+        </Link>
       </div>
     </div>
   );

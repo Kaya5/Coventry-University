@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import Scroll from "../components/Scroll";
 
 import { home, next } from "../components/styles";
+import { Link } from "react-router-dom";
 
 import "../styles/Pages.css";
 
@@ -49,14 +50,18 @@ function PageOne() {
       </article>
       <div className="buttons">
         <div className="home-button">
-          <Button href="/" color="primary" variant="contained" style={home}>
-            Home
-          </Button>
+          <Link to="/">
+            <Button color="primary" variant="contained" style={home}>
+              Home
+            </Button>
+          </Link>
         </div>
         <div className="next-btn">
-          <Button href="/page-two" style={next}>
-            next
-          </Button>
+          <Link to="/page-two">
+            <Button style={next}>
+              next
+            </Button>
+          </Link>
         </div>
       </div>
 
