@@ -7,7 +7,7 @@ import PageFour from "./pages/PageFour";
 import PageFive from "./pages/PageFive";
 
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
