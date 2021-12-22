@@ -3,6 +3,7 @@ const home = {
     fontFamily: 'Courier New',
     fontWeight: '600',
     fontSize: '15px',
+    marginBottom: '0.5%'
     
 }
 
@@ -23,7 +24,8 @@ const next = {
     color: 'white',
     fontFamily: 'Courier New',
     fontWeight: '600',
-    fontSize: '15px'
+    fontSize: '15px',
+    
 };
 
 export { home, prev, next };

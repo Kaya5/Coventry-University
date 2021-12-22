@@ -68,7 +68,7 @@ function PageFour() {
               </li>
 
               <li>
-                <b>Enhancements to the built environment,</b>
+                <b>Enhancements to the built environment </b>
                 including safe cycling routes free of hazards, adequate
                 pedestrian pathways to promote walking, and a review of parking
                 fees in university lots to reduce congestion.{" "}

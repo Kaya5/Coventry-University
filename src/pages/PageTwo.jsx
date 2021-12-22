@@ -20,6 +20,8 @@ import ride from "../assets/ride.png";
 import walk from "../assets/walk.jpeg";
 import bus from "../assets/bus.jpeg";
 import chargepoint from "../assets/chargepoint.png";
+import busride from "../assets/ride.jpeg";
+
 import { Link } from "react-router-dom";
 
 
@@ -56,10 +58,13 @@ function PageTwo() {
           <Header title="Sustainable Transport Initiatives at Coventry University" />
           <div>
           <Picture image={picture2} />
-          <Picture image={walk} />
-          <Picture image={ride} />
-          <Picture image={chargepoint} />
-          <Picture image={bus} />
+          <div className='page2-images'>
+            <img src={walk} className='extra-images' alt=''/>
+            <img src={ride} className='extra-images' alt=''/>
+            <img src={busride} className='extra-images' alt=''/>
+            <img src={bus} className='extra-images' alt=''/>
+            <img src={chargepoint} className='extra-images' alt=''/>
+          </div>
           </div>
         </div>
         <p>

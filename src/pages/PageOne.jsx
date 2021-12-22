@@ -3,9 +3,11 @@ import Header from "../components/Header";
 import Button from "@material-ui/core/Button";
 import Footer from "../components/Footer";
 import Scroll from "../components/Scroll";
+import Picture from '../components/Picture';
 
 import { home, next } from "../components/styles";
 import { Link } from "react-router-dom";
+import covent from '../assets/Covent.png';
 
 import "../styles/Pages.css";
 
@@ -19,6 +21,7 @@ function PageOne() {
         <p>
           This study is being conducted on the main campus of Coventry University, which has approximately 35,000 students and 3,500 employees who commute daily, weekly, monthly, or on an ad hoc basis mostly to the main campus (Coventry University, 2018). The university is in the heart of Coventry, which has approximately 371,000 residents (Coventry City Council, 2021). Coventry University gained university status in 1992. It currently operates several campuses and services worldwide, notably the Coventry University Group (Coventry University, n.d.).
         </p>
+        <Picture image={covent}/>
         </div>
 
 <div>

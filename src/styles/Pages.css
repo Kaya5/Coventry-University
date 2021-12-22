@@ -51,3 +51,27 @@ word-spacing: 10px;
   font-size: 13px;
   /* width: 100%; */
 }
+
+.findings{
+  color: #f84f90;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.page2-images{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  /* width: 100%; */
+  align-items: center;
+  margin: 1%;
+}
+
+.extra-images{
+  width: 480px;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
