@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Coventry-University/static/css/main.939d17a5.chunk.css",
-    "main.js": "/Coventry-University/static/js/main.ff9a4114.chunk.js",
-    "main.js.map": "/Coventry-University/static/js/main.ff9a4114.chunk.js.map",
-    "runtime-main.js": "/Coventry-University/static/js/runtime-main.db41dc06.js",
-    "runtime-main.js.map": "/Coventry-University/static/js/runtime-main.db41dc06.js.map",
-    "static/js/2.e8abafe6.chunk.js": "/Coventry-University/static/js/2.e8abafe6.chunk.js",
-    "static/js/2.e8abafe6.chunk.js.map": "/Coventry-University/static/js/2.e8abafe6.chunk.js.map",
-    "static/js/3.90ffc361.chunk.js": "/Coventry-University/static/js/3.90ffc361.chunk.js",
-    "static/js/3.90ffc361.chunk.js.map": "/Coventry-University/static/js/3.90ffc361.chunk.js.map",
+    "main.js": "/Coventry-University/static/js/main.f98b0ded.chunk.js",
+    "main.js.map": "/Coventry-University/static/js/main.f98b0ded.chunk.js.map",
+    "runtime-main.js": "/Coventry-University/static/js/runtime-main.2fea7813.js",
+    "runtime-main.js.map": "/Coventry-University/static/js/runtime-main.2fea7813.js.map",
+    "static/js/2.affe48e8.chunk.js": "/Coventry-University/static/js/2.affe48e8.chunk.js",
+    "static/js/2.affe48e8.chunk.js.map": "/Coventry-University/static/js/2.affe48e8.chunk.js.map",
+    "static/js/3.4719fa81.chunk.js": "/Coventry-University/static/js/3.4719fa81.chunk.js",
+    "static/js/3.4719fa81.chunk.js.map": "/Coventry-University/static/js/3.4719fa81.chunk.js.map",
     "index.html": "/Coventry-University/index.html",
     "static/css/main.939d17a5.chunk.css.map": "/Coventry-University/static/css/main.939d17a5.chunk.css.map",
-    "static/js/2.e8abafe6.chunk.js.LICENSE.txt": "/Coventry-University/static/js/2.e8abafe6.chunk.js.LICENSE.txt",
+    "static/js/2.affe48e8.chunk.js.LICENSE.txt": "/Coventry-University/static/js/2.affe48e8.chunk.js.LICENSE.txt",
     "static/media/Covent.f7c35c99.png": "/Coventry-University/static/media/Covent.f7c35c99.png",
     "static/media/Coventry.486e901d.png": "/Coventry-University/static/media/Coventry.486e901d.png",
     "static/media/Picture1.2fd275e3.jpg": "/Coventry-University/static/media/Picture1.2fd275e3.jpg",
@@ -31,9 +31,9 @@
     "static/media/walk.5edba34a.jpeg": "/Coventry-University/static/media/walk.5edba34a.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.db41dc06.js",
-    "static/js/2.e8abafe6.chunk.js",
+    "static/js/runtime-main.2fea7813.js",
+    "static/js/2.affe48e8.chunk.js",
     "static/css/main.939d17a5.chunk.css",
-    "static/js/main.ff9a4114.chunk.js"
+    "static/js/main.f98b0ded.chunk.js"
   ]
 }
