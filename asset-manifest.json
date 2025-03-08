@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Coventry-University/static/css/main.939d17a5.chunk.css",
-    "main.js": "/Coventry-University/static/js/main.f98b0ded.chunk.js",
-    "main.js.map": "/Coventry-University/static/js/main.f98b0ded.chunk.js.map",
+    "main.js": "/Coventry-University/static/js/main.aaee238b.chunk.js",
+    "main.js.map": "/Coventry-University/static/js/main.aaee238b.chunk.js.map",
     "runtime-main.js": "/Coventry-University/static/js/runtime-main.2fea7813.js",
     "runtime-main.js.map": "/Coventry-University/static/js/runtime-main.2fea7813.js.map",
     "static/js/2.affe48e8.chunk.js": "/Coventry-University/static/js/2.affe48e8.chunk.js",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.2fea7813.js",
     "static/js/2.affe48e8.chunk.js",
     "static/css/main.939d17a5.chunk.css",
-    "static/js/main.f98b0ded.chunk.js"
+    "static/js/main.aaee238b.chunk.js"
   ]
 }
