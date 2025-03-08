@@ -30,16 +30,7 @@ function Home() {
           </span>
         </h1>
         <div className="by">by</div>
-        <h1 className="name">Tomilade Doris Olawale </h1>
-        <div className="details">
-          <p className="id-number">
-            Student ID № : <span className="number">11176523</span>
-          </p>
-          <p className="course">"MSc. Business Analytics"</p>
-          <p className="tutor">
-            Tutor: <span>Dr. Witold Bahr</span>
-          </p>
-        </div>
+   
       </section>
 
       <div className="enter-button">
