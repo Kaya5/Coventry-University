@@ -35,20 +35,6 @@ function PageOne() {
 </div>
 
 <div>
-        <Header title="Research Objectives" />
-        <p>
-        This study aims to gain a comprehensive understanding of the existing sustainable travel plan at Coventry University, assess the barriers to uptake, and propose strategies to improve sustainable commute to the campus. The research objectives are as follows:
-          <ol>
-            <li> To demonstrate from academic literature, the crucial role of sustainable transport in reducing GHG emissions.
-            </li>
-            <li> To explore the existing sustainable travel plans at Coventry University.
-            </li>
-            <li> To identify obstacles to sustainable transport at Coventry University.
-            </li>
-            <li> To recommend measures for optimizing Coventry University's sustainable travel plans.
-            </li>
-          </ol>
-        </p>
         </div>
       </article>
       <div className="buttons">
